@@ -1,19 +1,13 @@
-  manifest:
+manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: munnich
+      url-base: https://github.com/Nick-Munnich
+    - name: caksoylar 
+      url-base: https://github.com/caksoylar
     - name: carrefinho                            
-      url-base: https://github.com/carrefinho     
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: prospector-zmk-module                 
-      remote: carrefinho                          
-      revision: main                              
-  self:
-    path: config
+      url-base: https://github.com/carrefinho                        
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -25,5 +19,8 @@
     - name: zmk-rgbled-widget 
       remote: caksoylar
       revision: main
+    - name: prospector-zmk-module                 
+      remote: carrefinho                          
+      revision: main  
   self:
     path: config
