@@ -1,11 +1,3 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: munnich
-      url-base: https://github.com/Nick-Munnich
-    - name: caksoylar 
-      url-base: https://github.com/caksoylar
   manifest:
   remotes:
     - name: zmkfirmware
